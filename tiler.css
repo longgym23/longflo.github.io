@@ -1,0 +1,91 @@
+h1{
+
+	color: #fff;
+}
+body, html {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+
+	background: url(./bài1/img/nen.gif) no-repeat center center fixed;
+	background-size: cover;
+}
+img {
+ margin-top: 10px;
+ width: 120px;
+ height: 120px;
+margin-left: 10px;
+}
+header {
+	margin-left: 85em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header > img {
+	width: 7em;
+	height: 7em;
+	border-radius: 100%;
+	border: 2px solid #fff;
+	box-shadow: red 0px 2px 8px 0px; 
+}
+header > h1 {
+	display: inline-block;
+	font-size: 1.2em;
+	font-weight: bold;
+	border-radius: 1em;
+	background-color: #000 ;
+	color: #fff;
+	padding: 0.3em 0.6em;
+	border: 2px solid #fffa;
+}
+.box-news{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	width: 100%;
+	height: auto;
+}
+.box-news-items{
+	width: 97%;
+	height: 200px;
+	border: 1px solid gray;
+	box-shadow: 5px 2px gainsboro;
+	margin: 5px 10px;
+	border-radius: 10px;
+}
+.box-news-items img{
+	width: 170px;
+	height: 190px;
+	margin: 5px;
+	float: left;
+	margin: 5px;
+	border: 1px solid gray;
+	box-shadow: 2px 1px gray;
+	border-radius: 5px;
+}
+.news-content{
+	width: 450px;
+	height: 190px;
+	float: left;
+}
+.title-news{
+	margin: 0;
+	border-bottom: 1px dotted gray;
+}
+.title-news a{
+	text-decoration: none;
+	color:brown;
+}
+.title-news a:hover{
+	text-decoration: underline;
+}
+.text-content{
+	text-align: justify;
+}
+
